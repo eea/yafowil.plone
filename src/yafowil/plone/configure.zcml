@@ -53,6 +53,13 @@
     provides="Products.GenericSetup.interfaces.EXTENSION" />
 
   <genericsetup:registerProfile
+    name="uninstall"
+    title="Uninstall YAFOWIL Form Library"
+    directory="profiles/uninstall"
+    description="Uninstall the YYet Another Form Widget Library - Basic Integration for Plone."
+    provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+  <genericsetup:registerProfile
     name="demo"
     title="YAFOWIL Form Library Demo"
     directory="profiles/demo"
