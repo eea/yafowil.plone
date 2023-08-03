@@ -1,0 +1,119 @@
+<registry>
+
+  <records prefix="plone.bundles/yafowil"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry' remove="true"/>
+
+  <!-- yafowil.plone common resources -->
+  <record name="yafowil.plone.common" remove="true"/>
+
+  <!-- yafowil.widget.ace -->
+  <record name="yafowil.widget.ace.dependencies" remove="true"/>
+
+  <record name="yafowil.widget.ace.common" remove="true"/>
+
+  <!-- yafowil.widget.array -->
+  <record name="yafowil.widget.array.common" remove="true"/>
+
+  <!-- yafowil.widget.autocomplete -->
+  <record name="yafowil.widget.autocomplete.dependencies" remove="true"/>
+
+  <record name="yafowil.widget.autocomplete.common" remove="true"/>
+
+  <!-- yafowil.widget.datetime -->
+  <record name="yafowil.widget.datetime.datepicker" remove="true"/>
+
+  <record name="yafowil.widget.datetime.timepicker" remove="true"/>
+
+  <record name="yafowil.widget.datetime.common" remove="true"/>
+
+  <!-- yafowil.widget.dict -->
+  <record name="yafowil.widget.dict.common" remove="true"/>
+
+  <!-- yafowil.widget.dynatree -->
+  <!--
+  <record name="yafowil.widget.dynatree.dependencies">
+    <field type="plone.registry.field.Bool">
+      <title>Dynatree widget dependency resources</title>
+    </field>
+    <value>True</value>
+  </record>
+
+  <record name="yafowil.widget.dynatree.common">
+    <field type="plone.registry.field.Bool">
+      <title>Dynatree widget common resources</title>
+    </field>
+    <value>True</value>
+  </record>
+  -->
+
+  <!-- yafowil.widget.image -->
+  <record name="yafowil.widget.image.common" remove="true"/>
+
+  <!-- yafowil.widget.location -->
+  <record name="yafowil.widget.location.dependencies" remove="true"/>
+
+  <record name="yafowil.widget.location.common" remove="true"/>
+
+  <!-- yafowil.widget.multiselect -->
+  <record name="yafowil.widget.multiselect.dependencies" remove="true"/>
+
+  <record name="yafowil.widget.multiselect.common" remove="true"/>
+
+  <!-- yafowil.widget.recaptcha -->
+  <!--
+  <record name="yafowil.widget.recaptcha.dependencies">
+    <field type="plone.registry.field.Bool">
+      <title>Recaptcha widget dependency resources</title>
+    </field>
+    <value>True</value>
+  </record>
+
+  <record name="yafowil.widget.recaptcha.common">
+    <field type="plone.registry.field.Bool">
+      <title>Recaptcha widget common resources</title>
+    </field>
+    <value>True</value>
+  </record>
+  -->
+
+  <!-- yafowil.widget.richtext -->
+  <record name="yafowil.widget.richtext.common" remove="true"/>
+
+  <!-- yafowil.widget.select2 -->
+  <record name="yafowil.widget.select2.dependencies" remove="true"/>
+
+  <record name="yafowil.widget.select2.common" remove="true"/>
+
+  <!-- yafowil.widget.slider -->
+  <record name="yafowil.widget.slider.dependencies" remove="true"/>
+
+  <record name="yafowil.widget.slider.common" remove="true"/>
+
+  <!-- yafowil.widget.wysihtml -->
+  <!--
+  <record name="yafowil.widget.wysihtml5.dependencies">
+    <field type="plone.registry.field.Bool">
+      <title>WYSIHTML5 widget dependency resources</title>
+    </field>
+    <value>False</value>
+  </record>
+
+  <record name="yafowil.widget.wysihtml5.common">
+    <field type="plone.registry.field.Bool">
+      <title>WYSIHTML5 widget common resources</title>
+    </field>
+    <value>False</value>
+  </record>
+  -->
+
+  <!-- yafowil.widget.color -->
+  <record name="yafowil.widget.color.dependencies" remove="true"/>
+
+  <record name="yafowil.widget.color.common" remove="true"/>
+
+  <!-- yafowil.widget.tiptap -->
+  <record name="yafowil.widget.tiptap.dependencies" remove="true"/>
+
+  <record name="yafowil.widget.tiptap.common" remove="true"/>
+
+</registry>

@@ -4,6 +4,8 @@ History
 
 4.0.0a6 (unreleased)
 --------------------
+- Add uninstall profile
+  [valipod]
 
 - remove requireJS from JavaScript to make it compatible with Plone 6, drop Plone 5 support
   [MrTango]
